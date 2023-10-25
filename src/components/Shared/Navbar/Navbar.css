@@ -1,0 +1,21 @@
+/* Header Css */
+.header {
+  backdrop-filter: blur(10px);
+}
+
+/* Nav container */
+.nav_container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em 40px;
+}
+
+/* Menu item */
+.menu__itme {
+  @apply text-2xl font-oranienbaum px-4 py-3 transition-all duration-300;
+}
+
+.menu__itme:hover {
+  @apply text-primary;
+}
