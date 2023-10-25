@@ -1,0 +1,12 @@
+#newsletter__email {
+  background-image: url("../../../assets/image/home/gray-star.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 3%;
+  max-width: 100%;
+  width: 100%;
+}
+
+#newsletter__email::placeholder {
+  @apply font-poppins text-grayText;
+}

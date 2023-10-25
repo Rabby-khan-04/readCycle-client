@@ -3,9 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Container */
 .container {
   width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 3em 75px;
+}
+
+/* Global Button Style */
+.submit__button {
+  height: 56px;
+  @apply tracking-[1px] uppercase bg-black rounded-full px-12 font-poppins text-white font-semibold;
 }

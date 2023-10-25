@@ -8,6 +8,7 @@ export default {
         secondary: "#000000",
         bgColor: "#f5f3ed",
         altBgColor: "#e8e6df",
+        grayText: "#807e79",
       },
     },
     fontFamily: {
