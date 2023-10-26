@@ -44,7 +44,21 @@ const SlideOne = () => {
 
         {/* Slider Right Starts*/}
         <div className="flex justify-center items-center relative">
-          <img src={heroImg} className="w-[500px]" alt="" />
+          <div className="max-w-[500px] relative">
+            <img src={heroImg} className="" alt="" />
+            {/* Logo Tag Starts */}
+
+            <div className="absolute font-poppins p-5 bg-white rounded-md logo__tag top-0 right-0">
+              <div className="relative">
+                <h2 className="text-[3vw]">RC</h2>
+                <div className="absolute top-0 right-0">
+                  <Dot color="#ee7d54" />
+                </div>
+              </div>
+            </div>
+
+            {/* Logo Tag Ends */}
+          </div>
 
           {/* Featured Card Starts*/}
           <div className="featured__box absolute bg-white w-[380px] p-5 rounded-md bottom-0 left-0">
