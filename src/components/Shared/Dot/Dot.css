@@ -1,0 +1,20 @@
+.feature__dot {
+  box-shadow: 0 0 10px 5px #2bae6cba;
+
+  @apply relative;
+}
+
+.feature__dot::after {
+  content: "";
+  background-color: white;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0 0 5px 2.5px white;
+}

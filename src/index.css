@@ -12,8 +12,26 @@
   padding: 3em 75px;
 }
 
-/* Global Button Style */
+/* Global Submit Button Style */
 .submit__button {
   height: 56px;
   @apply tracking-[1px] uppercase bg-black rounded-full px-12 font-poppins text-white font-semibold;
+}
+
+/* Global Prymary Button */
+.primary__button {
+  @apply inline-block text-white font-poppins font-normal bg-black rounded-md py-4 px-8 text-lg transition-all duration-300 border border-black;
+}
+
+.primary__button:hover {
+  @apply text-black bg-transparent;
+}
+
+/* Global Secondary Button */
+.secondary__button {
+  @apply inline-block text-black font-poppins font-normal bg-transparent rounded-md py-4 px-8 text-lg transition-all duration-300 border border-transparent;
+}
+
+.secondary__button:hover {
+  @apply border-black;
 }
