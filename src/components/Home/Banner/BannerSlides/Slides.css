@@ -1,3 +1,8 @@
+/* Slide Container */
+.slide__container {
+  @apply pt-[120px] pb-[50px] pl-[50px] pr-5 grid grid-cols-2 gap-[60px] h-[100vh];
+}
+
 /* Slide One Styles */
 
 /* Feature */

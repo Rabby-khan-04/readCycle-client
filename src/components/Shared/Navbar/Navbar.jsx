@@ -6,7 +6,7 @@ import gradientBG from "../../../assets/image/shared/navbar/Nav_Gradient.png";
 
 const Navbar = () => {
   return (
-    <header className="header z-10 sticky top-0 left-0 right-0 bottom-auto">
+    <header className="header z-10 sticky top-0 left-0 right-0 bottom-auto -mb-[120px]">
       {/* Nav Bar Starts */}
       <nav className="nav_container h-[70px] flex items-center justify-center relative">
         {/* Logo Starts */}

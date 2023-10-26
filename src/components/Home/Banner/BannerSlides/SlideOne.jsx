@@ -10,25 +10,25 @@ import userThree from "../../../../assets/image/home/user-3.jpg";
 import userFour from "../../../../assets/image/home/user-4.jpg";
 import { Link } from "react-router-dom";
 import Dot from "../../../Shared/Dot/Dot";
+import SlideHeading from "../../../Shared/SlideHeading/SlideHeading";
+import Description from "../../../Shared/Description/Description";
 
 const SlideOne = () => {
   return (
-    <section className="">
-      <div className="py-[50px] pl-[50px] pr-5 grid grid-cols-2 gap-[60px]">
+    <section>
+      <div className="slide__container">
         {/* Slider Left Starts*/}
         <div className="space-y-5 self-center">
           {/* Slider Title */}
-          <h1 className="font-oranienbaum text-[7vw] leading-[1.1]">
-            Discover a World of Books, Swap Stories
-          </h1>
+          <SlideHeading text="Discover a World of Books, & Swap Stories" />
 
           {/* Slider Text */}
-          <p className="text-grayText font-poppins text-base max-w-3xl">
-            Welcome to Read Cycle, where book lovers connect to swap, share, and
-            explore new stories. Unlock the joy of reading and build a community
-            of fellow book enthusiasts.
-          </p>
-
+          <Description
+            text="Welcome to Read Cycle, where book lovers connect to swap, share, and
+  explore new stories. Unlock the joy of reading and build a community
+  of fellow book enthusiasts."
+            width="max-w-3xl"
+          />
           {/* CTA Buttons */}
           <div className="flex items-center gap-5">
             <PrimaryButton
