@@ -1,4 +1,4 @@
-import React from "react";
+import "./Slides.css";
 import SlideHeading from "../../../Shared/SlideHeading/SlideHeading";
 import Description from "../../../Shared/Description/Description";
 import PrimaryButton from "../../../Shared/Buttons/PrimaryButton";
